@@ -1,0 +1,40 @@
+#app {}
+
+.question {
+    margin: 20px;
+}
+
+.title {
+    margin: 20px;
+}
+
+.author {
+    margin: 20px;
+}
+
+.publishingDate {
+    margin: 20px;
+}
+
+.genre {
+    margin: 20px;
+}
+
+.started {
+    margin: 20px;
+}
+
+.finished {
+    margin: 20px;
+}
+
+.pages {
+    margin: 20px;
+}
+
+.standaloneOrSeries {
+    margin: 20px;
+}
+.alignInputFeilds {
+    display: block;
+}

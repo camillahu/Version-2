@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Tracker</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+
+    
+
+    <h1>New Book</h1>
+
+    <h2>Congratulations! You've finished reading a new book👏</h2>
+
+    <div id="app">
+    <div class="question">Which book did you read?</div>
+
+    <div class="title">
+      Title <input type="text" />
+    </div>
+
+    <div class="author">
+      Author <input type="text" />
+      <!-- option to auto complete if author is known to program-->
+    </div>
+
+    <div class="publishingDate">
+      Publishing date <input type="text" />
+      <!-- add calendar -->
+    </div>
+
+    <div class="genre">
+      Genre(s) <input type="text" />
+      <!-- add 2-3 roll down menus with options -->
+    </div>
+
+    <div class="started">
+      Started <input type="text" />
+      <!-- add calendar -->
+    </div>
+
+    <div class="finished">
+      Finished <input type="text" />
+      <!-- add calendar -->
+    </div>
+
+    <div class="pages">
+      Pages <input type="text" />
+    </div>
+
+    <div class="standaloneOrSeries">
+      
+        <input type="checkbox" />Standalone<input type="checkbox" />Part of
+        series
+      
+      <!-- only one box can be checked at a time-->
+    </div>
+
+    <button onclick="messageSave()">Save</button>
+    <button onclick="messageNext()">Next</button>
+
+
+  </div>
+
+  <script>
+    function messageNext() {
+      alert("This button will direct you to the next page when it's ready");
+    }
+    function messageSave() {
+      alert("This button will save the data you've put in so far when it's ready");
+    }
+  </script>
+
+  </body>
+</html>
